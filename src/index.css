@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    
+body{
+margin: 0%;
+background-image: url(background .jpg);
+
+}
+
+
+.filters{
+
+font-size: 250%;
+align-self: center;
+justify-content: center;
+margin-left: 45%;
+margin-top: 5%;
+
+}
+
+.innerfilters{
+
+font-size: larger;
+background: transparent;
+
+}
+
+
+.navigation{
+
+background-color: rgb(0, 255, 110);
+justify-content: center;
+align-items: center;
+
+
+}
+
+.navbardecor{
+
+background-color: rgb(247, 10, 10);
+position: fixed;
+margin-top: 0%;
+}
+
+.image{
+
+
+animation:zoomIn 1s ease forwards;
+animation-delay: 2s,3s;
+
+}
+
+@keyframes zoomIn{
+
+0%{
+    transform: scale(0);
+    opacity: 0;
+}
+100%{
+transform: scale(1);
+opacity: 1;
+
+}
+
+
+}
+
+
+
+
+.image2{
+
+
+    animation:zoomIn 1s ease forwards;
+    animation-delay: 2s,3s;
+    
+    }
+    
+    @keyframes zoomIn{
+    
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+    transform: scale(1);
+    opacity: 1;
+    
+    }
+    
+    
+    }
+
+
+
+    .image3{
+
+
+        animation:zoomIn 1s ease forwards;
+        animation-delay: 2s,3s;
+        
+        }
+        
+        @keyframes zoomIn{
+        
+        0%{
+            transform: scale(0);
+            opacity: 0;
+        }
+        100%{
+        transform: scale(1);
+        opacity: 1;
+        
+        }
+        
+        
+        }
