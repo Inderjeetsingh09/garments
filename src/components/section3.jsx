@@ -1,7 +1,7 @@
 
 import { Modal } from "flowbite"
 import { Button } from "flowbite-react"
-import { Link } from "react-router-dom"
+import { Link, Navigate } from "react-router-dom"
 
 const products = [
   {
@@ -67,14 +67,13 @@ export default function Newarrivals() {
               <>
             
                 
-<Link to="/lilli">
+
 <img  className="image"
                   src={product.imageSrc}
                   alt={product.imageAlt}
                 
-                 
+               
 />
-</Link>
 
 </>
 
